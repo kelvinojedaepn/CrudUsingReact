@@ -32,8 +32,13 @@ export const AddPerson = (props: Props) => {
       year: year,
       isMaritate: maritate,
     }
-    onSubmitClick(data)
-    onBackBtnClick()
+    if (year > 0 && year < 100) {
+      onSubmitClick(data)
+      onBackBtnClick()
+    } else {
+      window.alert("Edad tiene que ser distinto de cero y menos que 100 años")
+      return
+    }
   }
 
   return (

@@ -17,4 +17,5 @@ export const exampleListPerson: IPerson[] = [
 export enum PagePersonEnum {
   list,
   add,
+  edit,
 }

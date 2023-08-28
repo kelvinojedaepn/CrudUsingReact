@@ -10,3 +10,8 @@
   margin-right: 10%;
   margin-top: 15px;
 }
+
+.add-person-btn {
+  float: right;
+  margin-bottom: 10px;
+}
